@@ -26,6 +26,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+		<name>Our practice Release Nexus Repository</name>
+	      	<url>http://13.234.217.171:8081/repository/my-app-release/</url>
+	      </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Our practice Snapshot Nexus Repository </name>
+	      <url>http://13.234.217.171:8081/repository/my-app/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
