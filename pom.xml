@@ -35,12 +35,12 @@
 	    <repository>
 	      <id>nexus</id>
 		<name>Our practice Release Nexus Repository</name>
-	      	<url>http://13.234.217.171:8081/repository/my-app-release/</url>
+	      	<url>http://13.232.104.92:8081/repository/my-app-release/</url>
 	      </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Our practice Snapshot Nexus Repository </name>
-	      <url>http://13.234.217.171:8081/repository/maven-snapshots/</url>
+	      <url>http://13.232.104.92:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 
