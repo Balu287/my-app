@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.host.url>http://13.127.141.77:9000/</sonar.host.url>
+    <sonar.host.url>http://100.24.37.50:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>admin</sonar.password>
   </properties>
@@ -35,12 +35,12 @@
 	    <repository>
 	      <id>nexus</id>
 		<name>Our practice Release Nexus Repository</name>
-	      	<url>http://13.127.133.249:8081/repository/my-app-release/</url>
+	      	<url>http://13.232.239.249:8081/repository/app-release/</url>
 	      </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Our practice Snapshot Nexus Repository </name>
-	      <url>http://13.127.133.249:8081/repository/my-app-snapshot/</url>
+	      <url>http://13.232.239.249:8081/repository/app-shanp/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 
